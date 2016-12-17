@@ -1,0 +1,668 @@
+{
+  "settings": {
+    "name": "SMG Test 3",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.10.3",
+    "uniqCompNum": 16,
+    "versionPublish": "3.10.3",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/smg-2016-logo-no-text-01-232x128-70.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">WELCOME!</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-8\">OUR PROJECTS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">BLOG</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#b8312f"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-205516-2000x1190-81.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "WELCOME TO <br>SIBISI MEDIA GROUP",
+          "text": "Whatever your dream, plan, vision or idea, we will bring it to life.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "msg-box5-2",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-2-2000x1333-50.jpg",
+            "bgColor": "#d8e1eb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/pexels-photo-2-01-1400x933-45.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "We think that business is much like extreme sports.&nbsp;",
+          "text": "You’re doing these amazing things every day, but taking huge risks at the same time! Sometimes you deliver your service better than you ever thought, and sometimes you crash right to the ground. But here is the game changer - you dust yourself off and try again. That’s the difference between businesses that last and businesses that come and go.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-237950-2000x1331-34.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "You want your business to grow, stand out and leave a massive dent on this earth.",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-4",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-126401-2000x1333-87.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showCaption": true
+          },
+          "title": "",
+          "caption": "<p><i>If you want your business to perform brilliantly, stand out and &nbsp;be memorable, then you’ve come to the right place.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">We had a hard time building our own brand. We know what it's like! We know the journey of picking this colour and then changing our minds and going for that other color that we didn’t initially like. It’s not indecision. You simply want to make the right choice. After all, this business is going to get out there, be seen by thousands of people and you want them to connect with what they see as much as you do. It’s not easy giving your vision the perfect name and a beautiful face, so to speak. But once you find the perfect look for your business, you know it right from the start and you're ready to go!</span></i></p><p><br></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-5",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/surf-outdoor-sports-surfer-surfing-163429-2000x808-60.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "\"Dream on!’ isn’t an insult, but a dare!\"&nbsp;",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#b8312f"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef",
+            "showMeta": true
+          },
+          "title": "OUR PROJECTS",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": "0",
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisimediagroup-lc-cupcake-boxes-2000x1333-10-2000x1333-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sibisimediagroup-lc-cupcake-boxes-2000x1333-10.jpg",
+                "caption": "Luxia Confections Branding Project",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisimediagroupkelving-poster-design-2000x1333-27-2000x1333-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sibisimediagroupkelving-poster-design-2000x1333-27.jpg",
+                "caption": "Kelvin SDA Church Poster Design",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisimediagroupwedding-invitation-design-2000x1333-63-2000x1333-30.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sibisimediagroupwedding-invitation-design-2000x1333-63.jpg",
+                "caption": "Personal Wedding Invite Design",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisimediagroup-magazine-proposal-design-2000x1333-98-2000x1333-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sibisimediagroup-magazine-proposal-design-2000x1333-98.jpg",
+                "caption": "Advertorial Magazine Proposal",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisi-media-group-rawandreel-tshirt-design-2000x1333-1-2000x1333-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sibisi-media-group-rawandreel-tshirt-design-2000x1333-1.jpg",
+                "caption": "Raw&amp;Reel Packaging Design",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisi-media-group-kicko-app-design-2000x1333-75-2000x1333-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sibisi-media-group-kicko-app-design-2000x1333-75.jpg",
+                "caption": "Kicko App Design",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisimediagroup-dsbg-mockup-02-2000x1333-76-2000x1333-98.png",
+                "image": "@PROJECT_PATH@/assets/images/sibisimediagroup-dsbg-mockup-02-2000x1333-76.png",
+                "caption": "Dark Skin Black Girl Branding Project",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sibisimediagroup-dsbg-mockup-01-2000x1333-78-2000x1333-61.png",
+                "image": "@PROJECT_PATH@/assets/images/sibisimediagroup-dsbg-mockup-01-2000x1333-78.png",
+                "caption": "Dark Skin Black Girl Scarf Design",
+                "active": true
+              }
+            ],
+            "spacing": 0,
+            "showText": true,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-9",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-a",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-127968-2000x1306-73.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": false
+          },
+          "title": "\"You can only touch the sky if you choose to fly!\"",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-b",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-29608-2000x1172-55.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": false
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://smg.co.za/blog\" data-toolbar=\"-mbrBtnMove\">VISIT OUR BLOG</a>",
+          "title": "WE HAVE A LITTLE TO<br>SAY ABOUT A LOT.",
+          "text": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-c",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-105822-2000x1333-0.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mackntech-logo-transp-01-1400x1400-48.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "TEAM WORK MAKES<br>THE DREAM WORK",
+          "text": "<i>We have partnered with MacknTech Technologies for all your development requirements. We make your business look good, and they make your business work.</i>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mackntech.co.za\" data-toolbar=\"-mbrBtnMove\">VISIT THEIR SITE</a>",
+          "_styles": {
+            ".mbr-section-text I": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "SPAN": {
+              "color": "#b8312f"
+            },
+            "P": {
+              "color": "#b8312f"
+            }
+          },
+          "_anchor": "contacts4-e",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sibisi-media-group-webbg-01-2000x1813-29.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<span style=\"color: rgb(124, 124, 124); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">Contact Us</span><br>\nEmail: brand@smg.co.za<br>\nPhone: +27 81 434 5826<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"#top\" class=\"text-white\">Welcome!</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"index.html#header3-8\" class=\"text-white\">Our Projects</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"www.smg.co.za/blog\" class=\"text-white\">Blog</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "nigel@smg.co.za",
+            "alerts": {
+              "success": "Thanks for filling out form! We will respond to you as soon as we can."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "footer1-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#b8312f",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Sibisi Media Group"
+        }
+      ]
+    }
+  }
+}
